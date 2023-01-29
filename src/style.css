@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Freemetto";
+  src: url("./fonts/freemetto.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: figtree, sans-serif;
+  font-weight: 400;
+}
+body {
+  background-color: #f3eae5;
+}
+
+h1 {
+  font-family: "Freemetto";
+  color: #9d6330;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+h2 {
+  margin-top: 60px;
+  color: #9d6330;
+  border-bottom: 2px dotted #9d6330b3;
+}
+
+h3 {
+  font-weight: 800;
+  text-shadow: 3px 3px 2px #7d4f27;
+}
+
+img {
+  width: 100%;
+  /* border: 3px solid grey; */
+  border-radius: 10px;
+}
+
+a {
+  color: #9d6330;
+  text-decoration: none;
+  opacity: 0.5;
+}
+a:hover {
+  /* color: #f59120; */
+  opacity: 1;
+}
+a.active {
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  background-color: #9d6330;
+  opacity: 1;
+  transition: background 1s;
+}
+#content {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+}
+#content-header {
+  background-color: #f3eae5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  position: sticky;
+  top: 0px;
+}
+#content-header > h1 {
+  flex: 1;
+}
+#content-header > span {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+}
+#content > div.home > img {
+  transition: content 2s;
+}
+#content > div.home > h2 {
+  color: #9d6330;
+  text-align: center;
+}
+#content > div.home > p {
+  text-align: justify;
+}
+#content > div.menu > div {
+  display: grid;
+  gap: 40px;
+}
+#content > div.menu div.dish {
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #9d6330b3;
+  color: white;
+  display: flex;
+  gap: 40px;
+  box-shadow: 3px 9px 6px grey;
+  /* justify-content: space-around; */
+}
+#content > div.menu div.dish > img {
+  width: 400px;
+  height: 300px;
+}
+
+#content > div.contact {
+  display: flex;
+  gap: 30px;
+}
+#content > div.contact > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 2px dotted #7d4f27;
+}
+#content > div.contact h3 {
+  color: #7d4f27;
+  text-shadow: 3px 3px 3px grey;
+}
+#content > div.contact h4 {
+  font-weight: bolder;
+}
+#content-footer {
+  border-radius: 10px;
+  color: white;
+  line-height: 50px;
+  width: 1240px;
+  text-align: center;
+  background-color: #9d6330;
+  position: fixed;
+  bottom: 1px;
+  opacity: 1;
+}
+#content-footer:hover {
+  background-color: #65a30d;
+}

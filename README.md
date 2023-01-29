@@ -1,2 +1,2 @@
 # odin-restaurant-page
-Odin Restaurant Page
+Odin Restaurant Pages
